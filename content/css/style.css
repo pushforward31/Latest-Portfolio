@@ -1,0 +1,78 @@
+#github{
+	font-size: 70px;
+	color: #103e67;
+}
+
+#LinkedIn{
+	font-size: 70px;
+	color: #103e67;
+}
+
+#Stack{
+	font-size: 70px;
+	color: #103e67;
+}
+
+body{
+	background-image: url("http://allswalls.com/images/gray-clouds-wallpaper-1.jpg");
+	}
+
+
+#icon{
+    /*position: fixed;
+    right: 0px; */
+    align-content: center;
+}
+
+img {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+#portfolio{
+	
+}
+
+#Javascript{
+	width: 33%;
+	float: left;
+}
+
+#Trivia{
+	width: 33%;
+	float: left;
+}
+
+#Giftastic{
+	width: 33%;
+	float: left;
+}
+
+#Timesheet{
+	width: 33%;
+	float: left;
+}
+
+#Crystal{
+	width: 33%;
+	float: left;
+}
+
+#nodejs{
+	width: 33%;
+	float: left;
+
+}
+
+h3{
+	color: #103e67;
+}
+
+#whitepart{
+	background-color: transparent;
+}
