@@ -16,9 +16,9 @@ function onYouTubeIframeAPIReady() {
 
             modestbranding: 1, // Hide the Youtube Logo
 
-            start: 10,
+            // start: 10,
             
-            end: 20,
+            // end: 20,
 
             loop: 0, // Run the video in a loop
 
