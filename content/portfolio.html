@@ -14,10 +14,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script async src="https://www.youtube.com/iframe_api"></script>
     <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script> 
     <script src="https://cdn.jsdelivr.net/npm/tween.js@16.3.4"></script>-->
-    <script src='javascript/vue.js'></script>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
@@ -25,8 +24,8 @@
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <div class="navbar-header">
-                <div>James Lemons</div>
-               <!-- <a class="navbar-brand" href="#"></a> -->
+                <div>James - Visual Works</div>
+                <!-- <a class="navbar-brand" href="#"></a> -->
             </div>
             <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="#">Home</a></li>
@@ -36,63 +35,84 @@
             </ul>
         </div>
     </nav>
-    
     <div class="container">
-        <div id ="whitepart" class="panel panel-default">
+        <div id="whitepart" class="panel panel-default">
             <div id="body" class="panel-body"></div>
             <div class="row">
                 <div class="col-md-7">
                     <div class="row">
-                        <div id = "portfolio" class="col-md-12">
+                        <div id="portfolio" class="col-md-12">
                             <h3>Portfolio</h3>
-                            <div id="Javascript"><a href="file:///Users/james/Documents/Prework_JL/Assignment%2010-java/index.html">Javascript
+                            <div class="app" id="Javascript"><a href="file:///Users/james/Documents/Prework_JL/Assignment%2010-java/index.html">Javascript
                                     <img class="img-responsive" src="https://live.fundza.mobi/wp-content/uploads/2015/02/My-first-time.jpg">
                                     </a>
                             </div>
-                            <div id="Trivia"><a href="https://pushforward31.github.io/TriviaGame/">Trivia Game
+                            <div class="app" id="Trivia"><a href="https://pushforward31.github.io/TriviaGame/">Trivia Game
                                     <img class="img-responsive" src="images/picture4.png">
                                     </a>
                             </div>
-                            <div id="Giftastic"><a href="https://pushforward31.github.io/Giftastic/">Giftastic
+                            <div class="app" id="Giftastic"><a href="https://pushforward31.github.io/Giftastic/">Giftastic
                                      <img class="img-responsive" src="images/picture3.png">
                                      </a>
                             </div>
-                            <div id="Timesheet"><a href="https://pushforward31.github.io/Train-Schedule/">Timesheet
+                            <div class="app" id="Timesheet"><a href="https://pushforward31.github.io/Train-Schedule/">Timesheet
                                      <img class="img-responsive" src="images/picture5.png">
                                      </a>
                             </div>
-                            <div id="Crystal"><a href="https://pushforward31.github.io/week-4-homework/">Crystal Game
+                            <div class="app" id="Crystal"><a href="https://pushforward31.github.io/week-4-homework/">Crystal Game
                                      <img class="img-responsive" src="images/picture1.png">
                                      </a>
                             </div>
-                            <div id="nodejs"><a href="https://pushforward31.github.io/liri-node-app/">Node.js
+                            <div class="app" id="nodejs"><a href="https://pushforward31.github.io/liri-node-app/">Node.js
                                      <img class="img-responsive" src="images/picture2.png">
                                      </a>
+                            </div>
+                            <div class="app" id="Constructors"><a href="https://github.com/pushforward31/Hangman-Cli.git">Contructors
+                                     <img class="img-responsive" src="images/picture10.png">
+                                     </a>
+                            </div>
+                            <div class="app" id="cabbageHeads"><a href="https://weblinaut.github.io/CabbageHead/">Flaming Cabbage
+                                     <img class="img-responsive" src="images/picture9.png">
+                                     </a>
+                            </div>
+                            <div class="app" id="FriendFinder"><a href="https://whispering-mountain-10522.herokuapp.com/">Tinder Touches
+                                     <img class="img-responsive" src="images/picture6.png">
+                                     </a>
+                            </div>
+                            <div class="app" id="goodBurger"><a href="https://pushforward31.herokuapp.com/">Taste a Burger
+                                     <img class="img-responsive" src="images/picture7.png">
+                                 </a>
+                            </div>
+                            <div class="app" id="collegeBound"><a href="https://college-bound.herokuapp.com/">College Bound
+                                     <img class="img-responsive" src="images/picture8.png">
+                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div id= "icon" class="col-md-5">
+                <div id="icon" class="col-md-5">
                     <h3>Connect with Me</h3>
                     <div>
                         <a href="https://github.com/pushforward31"><span id="github" class="fa fa-github-square"></span></a>
                         <a href="https://www.linkedin.com/in/james-lemons-7543a115"><span id="LinkedIn" class="fa fa-linkedin"></a>
                         <a href="https://stackoverflow.com/users/8960892/underdog-33"><span id="Stack" class="fa fa-stack-overflow"></span></a>
                     </div>
-                
                 </div>
             </div>
         </div>
     </div>
     </div>
-
     <nav class="navbar navbar-inverse navbar-fixed-bottom">
-  <div class="container-fluid">
-    <div class="navbar-footer">
-      <p>Copyright 2017 JJ</p>
+        <div class="container-fluid">
+            <div class="navbar-footer">
+                <p>Copyright 2017 JJ</p>
+            </div>
+        </div>
+    </nav>
+    <div class="video-background">
+        <div id="video-foreground" class="mute"></div>
     </div>
-</div>
-</nav>
 </body>
+<script type="text/javascript" src="javascript/splash.js"></script>
 
 </html>
